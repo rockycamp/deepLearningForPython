@@ -17,7 +17,7 @@ def compute_melgram(audio_path):
     # mel-spectrogram parameters
     SR = 2000
     N_FFT = 64
-    N_MELS = 24
+    N_MELS = 48
     HOP_LEN = 32
     DURA = 2.00  # to make it 1366 frame..
 
