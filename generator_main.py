@@ -27,9 +27,13 @@ from keras.layers import Input, Dense
 
 def generator_main():
 
-  original_dataset_dir = 'C:\\svn\\dwatts\\dev\\datasets\\whale_data\\data'
-  original_train_dataset_dir = 'C:\\svn\\dwatts\\dev\\datasets\\whale_data\\data\\train'
-  base_dir = 'C:\\svn\\dwatts\\dev\\dl_with_python\\whale_small\\'
+  #original_dataset_dir = 'C:\\svn\\dwatts\\dev\\datasets\\whale_data\\data'
+  #original_train_dataset_dir = 'C:\\svn\\dwatts\\dev\\datasets\\whale_data\\data\\train'
+  #base_dir = 'C:\\svn\\dwatts\\dev\\dl_with_python\\whale_small\\'
+
+  original_dataset_dir = '/home/david/data/whale_data/data'
+  original_train_dataset_dir = '/home/david/data/whale_data/data/train'
+  base_dir = '/home/david/dev/deepLearningForPython/whale_small/'
 
   # spectrogram parameters
   params = {'batch_size': 64,

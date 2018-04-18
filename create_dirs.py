@@ -44,7 +44,7 @@ def create_dirs(Ntrain, Nval, Ntest, original_dataset_dir, base_dir):
 
   # build a train object
   original_train_dir = os.path.join(original_dataset_dir, 'train')
-  train = fileio.TrainData(original_dataset_dir+'\\train.csv',base_dir+'train')
+  train = fileio.TrainData(original_dataset_dir+'/train.csv',base_dir+'train')
 
   # Copy Ntrain right whale recordings to train_whale_dir
   train_right_fnames = [train.h1[i] for i in range(Ntrain) ]
